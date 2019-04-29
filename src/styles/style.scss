@@ -1,0 +1,63 @@
+
+// .table-height td {
+//     height: 90px;
+// }
+
+// .table-height tr {
+//     height: 90px;
+// }
+
+// .invisible {
+//     width: 1px;
+// }
+
+// .table-fixed {
+//   width: 100%;
+// }
+
+.flex-table {
+  display: flex;
+  // flex-direction: column;
+  flex-flow: row wrap;
+  width: 100%;
+  // justify-content: space-between;
+}
+
+.flex-row {
+  width: 100%;
+  display: flex;
+}
+
+.cell {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+}
+
+/*This will work on every browser but Chrome Browser*/
+thead {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #000;
+  color: #fff;
+}
+
+/*This will work on every browser*/
+thead th {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #000;
+    color: #fff;
+}
